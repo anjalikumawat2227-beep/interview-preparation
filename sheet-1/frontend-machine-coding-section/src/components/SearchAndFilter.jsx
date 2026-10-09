@@ -27,10 +27,10 @@ const SearchAndFilter = ({search,setSearch,category,setCategory,status,setStatus
               onChange={(e) => setCategory(e.target.value)}
               className="w-full rounded-lg border border-slate-300 bg-white px-3 py-2"
             >
-              <option value="">All Categories</option>
+              <option value="" disabled>Select category</option>
               <option value="DSA">DSA</option>
-              <option value="Git-Github">Git-Github</option>
-              <option value="Technical">Technical</option>
+            <option value="Git-GitHub">Git-GitHub</option>
+            <option value="Technical">Technical</option>
             </select>
           </div>
 
