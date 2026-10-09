@@ -15,7 +15,7 @@ const Questions = () => {
   const [difficulty, setDifficulty] = useState("");
 
   const addQuestion = (data) => {
-    const question = { id: Date.now(), ...data };
+    const question = { id:Date.now(), ...data };
     const savedQuestions =
       JSON.parse(localStorage.getItem("questionData")) || [];
     const updatedQuestions = [...savedQuestions, question];

@@ -10,7 +10,6 @@ const AddQuestionForm = ({ editQuestion, onAddQuestion,onUpdateQuestion, onCance
     reset,
   } = useForm({
     defaultValues:{
-      id:"",
        title: "",
       category: "",
       difficulty: "",
@@ -29,7 +28,6 @@ const AddQuestionForm = ({ editQuestion, onAddQuestion,onUpdateQuestion, onCance
       });
     } else {
       reset({
-        id:"",
         title: "",
         category: "",
         difficulty: "",
