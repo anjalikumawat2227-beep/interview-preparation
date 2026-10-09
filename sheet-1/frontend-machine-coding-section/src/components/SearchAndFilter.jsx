@@ -29,7 +29,7 @@ const SearchAndFilter = ({search,setSearch,category,setCategory,status,setStatus
             >
               <option value="">All Categories</option>
               <option value="DSA">DSA</option>
-              <option value="Interview">Interview</option>
+              <option value="Git-Github">Git-Github</option>
               <option value="Technical">Technical</option>
             </select>
           </div>
